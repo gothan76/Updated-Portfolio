@@ -1,0 +1,156 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  /* background: linear-gradient(45deg, #ffdee9 0%, #b5fffc 100%); */
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+
+  /* background-repeat: no-repeat; */
+  /* width: 100px;
+  height: 100px; */
+  /* background-size: cover;
+  border: 2px solid black; */
+}
+#dark {
+  position: relative;
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+#dark img {
+  width: 30px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#nav {
+  width: 40px;
+  height: 350px;
+  position: fixed;
+  top: 200px;
+  left: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+#nav img {
+  width: 30px;
+  height: 40px;
+}
+#night {
+  display: none;
+}
+#all {
+  height: auto;
+  width: 100vw;
+}
+#topic {
+  display: flex;
+  width: 90%;
+  height: 40px;
+  justify-content: center;
+}
+#me {
+  width: 30%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+#me > img {
+  width: 300px;
+  height: 400px;
+  border-radius: 50%;
+}
+#first {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  height: 80vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#about {
+  width: 40%;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+}
+#second {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: auto;
+}
+#edtopic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+#education {
+  display: flex;
+  height: auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-top: 1%;
+}
+.eddetails {
+  padding: 5px;
+}
+#clg,
+#twelth,
+#tenth {
+  width: 25%;
+  height: 140px;
+  margin: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#btncontainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  margin-top: 30px;
+}
+#btn > button {
+  width: 200px;
+  height: 35px;
+  border-radius: 7px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.cdbtn:hover {
+  transition: 400ms;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}

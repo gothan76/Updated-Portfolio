@@ -1,0 +1,78 @@
+#dark {
+  position: absolute;
+  width: 100%;
+  height: 1%;
+  /* border: 2px solid; */
+  display: flex;
+  justify-content: flex-end;
+}
+#dark img {
+  width: 30px;
+  height: 40px;
+  margin: 10px 120px 10px 0px;
+}
+
+#night {
+  display: none;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+#all {
+  display: flex;
+  width: 98vw;
+  height: 95vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid; */
+}
+#nav {
+  width: 40px;
+  height: 350px;
+  position: fixed;
+  top: 200px;
+  left: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 20px;
+}
+#main {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 80%;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+#project {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* border: 2px solid blue; */
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+#portfolio,
+#calculator,
+#landing {
+  border: 2px solid;
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
